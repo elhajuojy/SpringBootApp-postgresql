@@ -7,7 +7,9 @@ public class Customer {
     @Id
     @SequenceGenerator(
             name = "customer_id_sequence",
-            sequenceName = "customer_id_sequence"
+            sequenceName = "customer_id_sequence",
+            allocationSize = 1
+
     )
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
@@ -18,6 +20,8 @@ public class Customer {
     private String email ;
     private  int age ;
 
+    public Customer() {
+    }
 
     public Integer getId() {
         return id;
