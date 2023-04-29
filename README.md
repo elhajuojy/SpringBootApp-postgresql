@@ -1,6 +1,13 @@
 # Getting Started
 
+# dockerize application setups  🦆
+
+* you need first to build target for your application using maven builder
+* run ``docker  build -t springapi .``
+* then run ``docker run -p 8000:8080 springapi ``
+
 ### Reference Documentation
+
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
