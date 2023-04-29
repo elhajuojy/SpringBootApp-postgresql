@@ -6,6 +6,10 @@
 * run ``docker  build -t springapi .``
 * then run ``docker run -p 8000:8080 springapi ``
 
+#  N Tier Diagram
+
+![Screenshot (1)](https://user-images.githubusercontent.com/86893073/235302978-12f45e61-ffa6-43bb-b22f-1f1a1102dd2d.png)
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:
